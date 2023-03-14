@@ -1,0 +1,30 @@
+:root {
+    --green: #00FF00;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+body{
+    font-family: monospace;
+}
+ul{
+    font-family: helvetica;
+}
+li{
+    list-style: circle;
+}
+.list{ /* seletor de classe */
+    list-style: square;
+}
+#msg{ /* seletor de ID */
+    font-family: monospace;
+}
+.light-theme{
+    --bg: var(--green);
+    --fontColor:var(--black);
+}
+dark-theme{
+    --bg:var(--black);
+    --fontColor:var(--green);
+}
+
